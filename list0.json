@@ -82,5 +82,41 @@
     "create_time": "2019-11-23",
     "update_time": "2019-11-23",
     "version": "r1"
+  },
+  {
+    "id": 8,
+    "titleid": "godmode",
+    "name": "GodMode9i",
+    "description": "GodMode9i Explorer - A full access file browser for the Nintendo DS and DSi consoles",
+    "author": "RocketRobz",
+    "size": 249856,
+    "url": "https://github.com/RocketRobz/GodMode9i/releases/download/v2.3.0/GodMode9i.7z",
+    "create_time": "2018-10-05",
+    "update_time": "2020-02-20",
+    "version": "v2.3.0"
+  },
+  {
+    "id": 9,
+    "titleid": "doom",
+    "name": "DS Doom",
+    "description": "DS Doom is a port of PrBoom to the Nintendo DS.",
+    "author": "TheChuckster",
+    "size": 1751121.92,
+    "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/dsdoom/dsdoom-1.2.1.7z",
+    "create_time": "2007-01-25",
+    "update_time": "2011-06-20",
+    "version": "v1.2.1"
+  }
+  {
+    "id": 10,
+    "titleid": "pkmnchest",
+    "name": "pkmn chest",
+    "description": "A Pokémon Bank for the 3rd through 5th generation Pokémon games for the Nintendo DS(i).",
+    "author": "Universal Team",
+    "size": 6721372.16,
+    "url": "https://github.com/Universal-Team/pkmn-chest/releases/download/v2.0.1/pkmn-chest.nds",
+    "create_time": "2019-06-16",
+    "update_time": "2020-02-21",
+    "version": "v2.0.1"
   }
 ]

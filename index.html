@@ -1,0 +1,110 @@
+<!doctype HTML>
+<html ng-app="dsshop">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 3rd party -->
+    <script src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/material.min.js"></script>
+    <script src="./js/material-kit.js"></script>
+    <script src="./js/bootstrap-datepicker.js"></script>
+    <script src="./js/nouislider.min.js"></script>
+    <script src='./js/loading-bar.min.js'></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/material-kit.css" />
+    <link rel='stylesheet' href='./css/loading-bar.min.css' type='text/css' media='all' />
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/1.6.50/css/materialdesignicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- site-specific -->
+    <script src="./js/app.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- info -->
+    <meta name="description" content="DS Homebrew Title Database">
+    <meta name="author" content="Multimegamander">
+    <title>DS Shop</title>
+</head>
+<body ng-controller="TitleListController">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand hidden-xs" href="#"><i class="mdi mdi-gamepad"></i>&nbsp;DS Shop</a>
+          <form class="search-form navbar-right navbar-form" role="search">
+            <div class="input-group">
+              <input type="text" id="search-input" class="form-control" placeholder="Search" ng-model="searchQuery" />
+              <span class="input-group-addon">
+                <label for="search-input" class="mdi mdi-magnify"></label>
+              </span>
+            </div>
+          </form>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li class="navbar-text-wrapper">
+              <h4 class="visible-xs" href="#"><i class="mdi mdi-gamepad"></i>&nbsp;DS Shop</h4>
+            </li>
+            <li class="navbar-text-wrapper hidden-sm">
+              <p class="navbar-text">A static DS homebrew hub based for all your homebrew needs</a></p>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a class="btn btn-white btn-simple" onclick="window.open('https://github.com/Multimegamander/DSShop');">
+                <i class="mdi mdi-github-circle" aria-hidden="true"></i>
+                &nbsp;GitHub
+              </a>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+        <div id="loading-bar-container"></div>
+      </div>
+    </nav>
+    <div class="container">
+        <div class="row" id="titles">
+          <div class="col-xs-12 col-sm-6 col-md-3" ng-repeat="title in titles | filter : searchQuery">
+            <div class="card title">
+              <div class="content">
+                <div class="media">
+                  <div class="media-left">
+                    <img ng-src="https://multimegamander.github.io/DSShop/assets/images/{{title.titleid}}.png" alt="{{title.name}}-icon" class="media-object hb-icon pull-left">
+                  </div>
+                  <div class="media-body">
+                    <div class="media-heading">
+                      <span class="title-name text-primary text-uppercase" title="{{title.name}}">{{title.name}}</span>
+                    </div>
+                    <small title="by {{title.author}}">by {{title.author}}</small>
+                  </div>
+                </div>
+                <br />
+                <p class="truncate" title="{{title.description}}">{{title.description}}</p>
+                <p class="text-muted">
+                  <small>Size: {{title.size | filesize:2}}</small>
+                  <br />
+                  <small>Last Updated: {{title.update_time}}</small>
+                </p>
+              </div>
+              <div align="center" class="footer">
+                <a ng-href="{{title.url}}" title="{{title.url}}" class="btn btn-default btn-simple" role="button" data-toggle="tooltip" data-placement="top">DOWNLOAD</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container-fluid">
+          <p class="text-muted">Made by lots of Multimegamander. <a href="credits">credits</a><br />All extracted graphics, logos, and trademarks are property of their respective owners.</p>
+          <p class="text-muted">Ver. 1.0.0</p>
+        </div>
+      </footer>
+    </body>
+</html>

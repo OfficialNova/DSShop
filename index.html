@@ -9,7 +9,6 @@
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/material.min.js"></script>
     <script src="./js/material-kit.js"></script>
-    <script src="./js/bootstrap-datepicker.js"></script>
     <script src="./js/nouislider.min.js"></script>
     <script src='./js/loading-bar.min.js'></script>
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
@@ -56,12 +55,11 @@
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a class="btn btn-white btn-simple" onclick="window.open('https://github.com/Multimegamander/DSShop');">
-                <i class="mdi mdi-github-circle" aria-hidden="true"></i>
-                &nbsp;GitHub
-              </a>
-            </li>
+            <a href="https://paypal.me/TaylorGenn">DONATE</a>
+            <a class="btn btn-white btn-simple" onclick="window.open('https://github.com/Multimegamander/DSShop');">
+              <i class="mdi mdi-github-circle" aria-hidden="true"></i>
+              &nbsp;GitHub
+            </a>
           </ul>
         </div><!-- /.navbar-collapse -->
         <div id="loading-bar-container"></div>
@@ -91,6 +89,8 @@
                   <small>Last Updated: {{title.update_time}}</small>
                   <br />
                   <small>Created On: {{title.create_time}}</small>
+                  <br />
+                  <small>Version: {{title.version}}</small>
                 </p>
               </div>
               <div align="center" class="footer">

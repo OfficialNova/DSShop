@@ -24,7 +24,7 @@
     "version": "v0.7.1"
   },
   {
-    "id": 3
+    "id": 3,
     "titleid": "gbarunner2",
     "name": "GBARunner2",
     "description": "A GBA hypervisor for DS. (like nintendont for gc on wii)",
@@ -36,7 +36,7 @@
     "version": "v20200217-194452_0b8bbe3"
   },
   {
-    "id": 4
+    "id": 4,
     "titleid": "nesds",
     "name": "NesDS",
     "description": "NesDS1.3c",

@@ -1,2 +1,2 @@
 # DSShop
-A static DS homebrew hub based for all your homebrew needs
+A static DS homebrew hub for all your homebrew needs

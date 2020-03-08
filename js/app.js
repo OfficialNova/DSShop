@@ -6,7 +6,7 @@
   }]);
 
   titledbApp.controller('TitleListController', function TitleListController($scope, $http) {
-    $http.get('https://multimegamander.github.io/DSShop/list0.html').then(function(response){
+    $http.get('https://multimegamander.github.io/DSShop/list0.json').then(function(response){
       $scope.titles = response.data.sort(function(a, b){
         if(a.name.toUpperCase() < b.name.toUpperCase()) return -1;
         if(a.name.toUpperCase() > b.name.toUpperCase()) return 1;

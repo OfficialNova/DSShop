@@ -58,5 +58,22 @@
     "create_time": "2018-9-14",
     "update_time": "2019-6-26",
     "version": "v0.7.1"
+  },
+  {
+    "id": 6,
+    "titleid": "hiyacfw",
+    "name": "hiyaCFW",
+    "description": "World's FIRST Nintendo DSi CFW!",
+    "author": "Apache Thunder",
+    "size": 286720,
+    "url": "https://github.com/RocketRobz/hiyaCFW/releases/download/v1.3.3/HiyaCFW.7z",
+    "create_time": "2018-4-24",
+    "update_time": "2020-3-4",
+    "version": "v1.3.3"
+  },
+  {
+    "id": 7,
+    "titleid": "portal",
+    "name": "portalDS"
   }
 ]

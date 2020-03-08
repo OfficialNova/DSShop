@@ -1,5 +1,5 @@
 (function($){
-  var titledbApp = angular.module('titledbApp', ['angular-loading-bar'])
+  var titledbApp = angular.module('dsshop', ['angular-loading-bar'])
   .config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
     cfpLoadingBarProvider.includeSpinner = false;
     cfpLoadingBarProvider.parentSelector = '#loading-bar-container';

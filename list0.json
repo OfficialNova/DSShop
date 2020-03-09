@@ -118,5 +118,17 @@
     "create_time": "2019-06-16",
     "update_time": "2020-02-21",
     "version": "v2.0.1"
+  },
+  {
+    "id": 11,
+    "titleid": "lolsnes",
+    "name": "lolSnes",
+    "description": "SNES emulator for DS",
+    "author": "Arisotura",
+    "size": 329728,
+    "url": "https://www.lolsnes.com/download/lolSNES.nds",
+    "create_time": "?",
+    "update_time": "?",
+    "version": "?"
   }
 ]

@@ -55,21 +55,6 @@ body {
     padding-right: 1em;
   }
   
-  .qr-collapse {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    background-color: white;
-  }
-  
-  .qr-collapse canvas {
-    width: auto;
-    height: 100%;
-  }
-  
   .align-right {
     text-align: right;
   }

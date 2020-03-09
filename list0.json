@@ -9,7 +9,8 @@
     "url": "https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v12.2.1/TWiLightMenu.7z",
     "create_time": "2017-05-06",
     "update_time": "2020-03-07",
-    "version": "v12.2.1"
+    "version": "v12.2.1",
+    "categories":[1,2]
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "url": "https://github.com/devkitPro/nds-hb-menu/releases/download/v0.7.1/hbmenu-0.7.1.tar.bz2",
     "create_time": "2014-04-03",
     "update_time": "2017-09-28",
-    "version": "v0.7.1"
+    "version": "v0.7.1",
+    "categories":[1,2]
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
     "url": "https://github.com/Gericom/GBARunner2/releases",
     "create_time": "2019-07-01",
     "update_time": "2020-02-17",
-    "version": "v20200217-194452_0b8bbe3"
+    "version": "v20200217-194452_0b8bbe3",
+    "categories":[1,4,5]
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
     "url": "https://github.com/RocketRobz/NesDS/raw/master/release/nesDS.nds",
     "create_time": "2016-11-2",
     "update_time": "2018-10-19",
-    "version": "1.3c"
+    "version": "1.3c",
+    "categories":[1,4]
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
     "url": "https://github.com/JeffRuLz/TMFH/releases/download/v0.7.0/TMFH.0.7.1.zip",
     "create_time": "2018-09-14",
     "update_time": "2019-06-26",
-    "version": "v0.7.1"
+    "version": "v0.7.1",
+    "categories":[1,2,5]
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
     "url": "https://github.com/RocketRobz/hiyaCFW/releases/download/v1.3.3/HiyaCFW.7z",
     "create_time": "2018-04-24",
     "update_time": "2020-03-4",
-    "version": "v1.3.3"
+    "version": "v1.3.3",
+    "categories":[1,2,5]
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
     "url": "https://github.com/smealum/portalDS/releases/download/r1/ASDS_r1.zip",
     "create_time": "2019-11-23",
     "update_time": "2019-11-23",
-    "version": "r1"
+    "version": "r1",
+    "categories":[1,2]
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
     "url": "https://github.com/RocketRobz/GodMode9i/releases/download/v2.3.0/GodMode9i.7z",
     "create_time": "2018-10-05",
     "update_time": "2020-02-20",
-    "version": "v2.3.0"
+    "version": "v2.3.0",
+    "categories":[1,2]
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
     "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/dsdoom/dsdoom-1.2.1.7z",
     "create_time": "2007-01-25",
     "update_time": "2011-06-20",
-    "version": "v1.2.1"
+    "version": "v1.2.1",
+    "categories":[1,3]
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
     "url": "https://github.com/Universal-Team/pkmn-chest/releases/download/v2.0.1/pkmn-chest.nds",
     "create_time": "2019-06-16",
     "update_time": "2020-02-21",
-    "version": "v2.0.1"
+    "version": "v2.0.1",
+    "categories":[1,2]
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
     "url": "https://www.lolsnes.com/download/lolSNES.nds",
     "create_time": "?",
     "update_time": "?",
-    "version": "v1.1"
+    "version": "v1.1",
+    "categories":[1,4]
   },
   {
     "id": 12,
@@ -141,6 +152,7 @@
     "url": "https://github.com/FlameKat53/GBARunner2-Forwarder/releases/download/v1.0/gbar2fwrd-dsi.nds",
     "create_time": "2019-10-17",
     "update_time": "2019-10-17",
-    "version": "v1.0"
+    "version": "v1.0",
+    "categories":[1,4,5]
   }
 ]

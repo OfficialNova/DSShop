@@ -130,5 +130,17 @@
     "create_time": "?",
     "update_time": "?",
     "version": "v1.1"
+  },
+  {
+    "id": 12,
+    "titleid": "gbarunner2forwarder",
+    "name": "GBARunner2 Forwarder",
+    "description": "GBAR2 Forwarder. Only use the branch for your device, do not use on flashcards.",
+    "author": "FlameKat53",
+    "size": 246784,
+    "url": "https://github.com/FlameKat53/GBARunner2-Forwarder/releases/download/v1.0/gbar2fwrd-dsi.nds",
+    "create_time": "2019-10-17",
+    "update_time": "2019-10-17",
+    "version": "v1.0"
   }
 ]

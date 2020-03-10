@@ -82,11 +82,6 @@
 		"author": "Universal-Team",
 		"name": "pkmn-chest",
 		"categories": [1, 2]
-		"files": [
-			{
-				"url": "https://github.com/Universal-Team/pkmn-chest/releases/download/v2.0.1/pkmn-chest.nds",
-		                "name: "pkmn-chest.nds",
-		                "size": 6721372.16
 	},
 	{
 		"location": "other",

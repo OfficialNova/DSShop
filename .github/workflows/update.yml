@@ -5,8 +5,6 @@ name: Update
 # Controls when the action will run. Triggers the workflow on push or pull request 
 # events but only for the master branch
 on:
-  push:
-    branches: [master]
   schedule:
     - cron: '* * * * *'
     
@@ -33,5 +31,7 @@ jobs:
       uses: EndBug/add-and-commit@v4.0.0
       with:
         add: "*.json"
+        author_name: GitHub Actions
+        author_email: noreply@github.com
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

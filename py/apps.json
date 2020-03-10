@@ -21,6 +21,7 @@
 		"location": "other",
 		"author": "RocketRobz",
 		"name": "NesDS",
+		"description": "NES emulator for the DS",
 		"categories": [1, 4],
 		"update_time": "2016-11-2",
 		"create_time": "2018-10-19",
@@ -31,8 +32,7 @@
 				"name": "nesDS.nds",
 				"size": 463872
 			}
-		],
-		"description": "NES emulator for the DS"
+		]
 	},
 	{
 		"location": "GitHub",
@@ -62,6 +62,7 @@
 		"location": "other",
 		"author": "TheChuckster",
 		"name": "DS Doom",
+		"description": "DS Doom is a port of PrBoom to the Nintendo DS.",
 		"categories": [1, 3],
 		"update_time": "2007-01-25",
 		"create_time": "2011-06-20",
@@ -72,8 +73,7 @@
 				"name": "nesDS.nds",
 				"size": 1750984
 			}
-		],
-		"description": "DS Doom is a port of PrBoom to the Nintendo DS."
+		]
 	},
 	{
 		"location": "GitHub",
@@ -85,6 +85,7 @@
 		"location": "other",
 		"author": "Arisotura",
 		"name": "lolSNES",
+		"description": "SNES emulator for DS",
 		"categories": [1, 4],
 		"update_time": "?",
 		"create_time": "?",
@@ -95,8 +96,7 @@
 				"name": "lolSNES.nds",
 				"size": 329737
 			}
-		],
-		"description": "SNES emulator for DS"
+		]
 	},
 	{
 		"location": "GitHub",

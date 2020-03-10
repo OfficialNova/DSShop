@@ -7,6 +7,8 @@ name: Check for updates
 on:
   schedule:
     - cron: '* * * * *'
+  push:
+    branches: [master]
     
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -29,6 +31,8 @@ jobs:
         
     - name: Commit changes
       run: |
+        git config --global user.email "noreply@github.com"
+        git config --global user.name "GitHub Actions"
         git stage .
         git commit -m "Update versions"
         git push

@@ -103,5 +103,10 @@
 		"author": "FlameKat53",
 		"name": "GBARunner2-Forwarder",
 		"categories": [1, 4, 5]
+	},
+	{
+		"location": "other",
+		"name": "test",
+		"author": "no one"
 	}
 ]

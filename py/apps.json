@@ -1,0 +1,107 @@
+[
+	{
+		"location": "GitHub",
+		"author": "DS-Homebrew",
+		"name": "TWiLightMenu",
+		"categories": [1, 2]
+	},
+	{
+		"location": "GitHub",
+		"author": "devkitPro",
+		"name": "nds-hb-menu",
+		"categories":[1, 2]
+	},
+	{
+		"location": "GitHub",
+		"author": "Gericom",
+		"name": "GBARunner2",
+		"categories":[1, 4]
+	},
+	{
+		"location": "other",
+		"author": "RocketRobz",
+		"name": "NesDS",
+		"description": "NES emulator for the DS",
+		"categories": [1, 4],
+		"update_time": "2016-11-2",
+		"create_time": "2018-10-19",
+		"version": "1.3c",
+		"files": [
+			{
+				"url": "https://github.com/RocketRobz/NesDS/raw/master/release/nesDS.nds",
+				"name": "nesDS.nds",
+				"size": 463872
+			}
+		]
+	},
+	{
+		"location": "GitHub",
+		"author": "JeffRuLz",
+		"name": "TMFH",
+		"categories":[1, 2, 5]
+	},
+	{
+		"location": "GitHub",
+		"author": "RocketRobz",
+		"name": "hiyaCFW",
+		"categories":[1, 2, 5]
+	},
+	{
+		"location": "GitHub",
+		"author": "Smealum",
+		"name": "portalDS",
+		"categories": [1, 3]
+	},
+	{
+		"location": "GitHub",
+		"author": "RocketRobz",
+		"name": "GodMode9i",
+		"categories": [1, 2]
+	},
+	{
+		"location": "other",
+		"author": "TheChuckster",
+		"name": "DS Doom",
+		"description": "DS Doom is a port of PrBoom to the Nintendo DS.",
+		"categories": [1, 3],
+		"update_time": "2007-01-25",
+		"create_time": "2011-06-20",
+		"version": "v1.2.1",
+		"files": [
+			{
+				"url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/dsdoom/dsdoom-1.2.1.7z",
+				"name": "nesDS.nds",
+				"size": 1750984
+			}
+		]
+	},
+	{
+		"location": "GitHub",
+		"author": "Universal-Team",
+		"name": "pkmn-chest",
+		"categories": [1, 2]
+	},
+	{
+		"location": "other",
+		"author": "Arisotura",
+		"name": "lolSNES",
+		"description": "SNES emulator for DS",
+		"categories": [1, 4],
+		"update_time": "?",
+		"create_time": "?",
+		"version": "v1.1",
+		"files": [
+			{
+				"url": "https://www.lolsnes.com/download/lolSNES.nds",
+				"name": "lolSNES.nds",
+				"size": 329737
+			}
+		]
+	},
+	{
+		"location": "GitHub",
+		"author": "FlameKat53",
+		"name": "GBARunner2-Forwarder",
+		"categories": [1, 4, 5]
+	}
+]

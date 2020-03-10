@@ -85,7 +85,7 @@
                 <br />
                 <p class="truncate" title="{{title.description}}">{{title.description}}</p>
                 <p class="text-muted">
-                  <small>Size: {{title.size | filesize:2}}</small>
+                  <small>Size: {{title.files[0].size | filesize:2}}</small>
                   <br />
                   <small>Last Updated: {{title.update_time}}</small>
                   <br />
@@ -95,7 +95,7 @@
                 </p>
               </div>
               <div align="center" class="footer">
-                <a ng-href="{{title.url}}" title="{{title.url}}" class="btn btn-default btn-simple" role="button" data-toggle="tooltip" data-placement="top">DOWNLOAD</a>
+                <a ng-href="{{title.files[0].url}}" title="{{title.files[0].url}}" class="btn btn-default btn-simple" role="button" data-toggle="tooltip" data-placement="top">DOWNLOAD</a>
               </div>
             </div>
           </div>

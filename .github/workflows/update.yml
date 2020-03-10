@@ -31,6 +31,7 @@ jobs:
         
     - name: Commit changes
       run: |
+        echo Changes: $(git diff-index --name-only HEAD --)
         CHANGED=$(git diff-index --name-only HEAD --)
         if [ -n "$CHANGED" ]; then
         git config --global user.email "noreply@github.com"

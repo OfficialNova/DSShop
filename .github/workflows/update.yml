@@ -31,8 +31,11 @@ jobs:
         
     - name: Commit changes
       run: |
-        git config --global user.email "noreply@github.com"
-        git config --global user.name "GitHub Actions"
-        git stage .
-        git commit -m "Update versions"
-        git push
+        CHANGED=$(git diff-index --name-only HEAD --)
+        if [ -n "$CHANGED" ]; then
+          git config --global user.email "noreply@github.com"
+          git config --global user.name "GitHub Actions"
+          git stage .
+          git commit -m "Update versions"
+          git push
+        fi

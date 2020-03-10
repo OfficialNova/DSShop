@@ -72,7 +72,7 @@
 		"files": [
 			{
 				"url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/dsdoom/dsdoom-1.2.1.7z",
-				"name": "dsdoom-1.2.1.nds",
+				"name": "nesDS.nds",
 				"size": 1750984
 			}
 		]
@@ -81,6 +81,7 @@
 		"location": "GitHub",
 		"author": "Universal-Team",
 		"name": "pkmn-chest",
+		"categories": [1, 2]
 	},
 	{
 		"location": "other",

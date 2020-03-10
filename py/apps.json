@@ -79,7 +79,7 @@
 		"location": "GitHub",
 		"author": "Universal-Team",
 		"name": "pkmn-chest",
-		"categories": [1, 2]
+		"categories": [1, 2],
 		"files": [
 			{
 				"url": "https://github.com/Universal-Team/pkmn-chest/releases/download/v2.0.1/pkmn-chest.nds",

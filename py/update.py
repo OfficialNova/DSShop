@@ -37,7 +37,8 @@ for project in obj:
 			"create_time": info["created_at"][:10],
 			"update_time": releases["created_at"][:10],
 			"version": releases["tag_name"],
-			"categories": project["categories"]
+			"categories": project["categories"],
+			"url": info["html_url"]
 		}
 	elif project["location"] == "other":
 		print(project["name"] + " by " + project["author"])

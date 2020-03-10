@@ -26,6 +26,7 @@
 		"update_time": "2016-11-2",
 		"create_time": "2018-10-19",
 		"version": "1.3c",
+		"url": "https://github.com/RocketRobz/NesDS",
 		"files": [
 			{
 				"url": "https://github.com/RocketRobz/NesDS/raw/master/release/nesDS.nds",
@@ -67,6 +68,7 @@
 		"update_time": "2007-01-25",
 		"create_time": "2011-06-20",
 		"version": "v1.2.1",
+		"url": "https://code.google.com/archive/p/dsdoom/",
 		"files": [
 			{
 				"url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/dsdoom/dsdoom-1.2.1.7z",
@@ -79,14 +81,6 @@
 		"location": "GitHub",
 		"author": "Universal-Team",
 		"name": "pkmn-chest",
-		"categories": [1, 2],
-		"files": [
-			{
-				"url": "https://github.com/Universal-Team/pkmn-chest/releases/download/v2.0.1/pkmn-chest.nds",
-		                "name: "pkmn-chest.nds",
-		                "size": 6721372.16
-	                }
-		]
 	},
 	{
 		"location": "other",
@@ -97,6 +91,7 @@
 		"update_time": "?",
 		"create_time": "?",
 		"version": "v1.1",
+		"url": "https://www.lolsnes.com",
 		"files": [
 			{
 				"url": "https://www.lolsnes.com/download/lolSNES.nds",

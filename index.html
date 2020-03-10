@@ -73,11 +73,11 @@
               <div class="content">
                 <div class="media">
                   <div class="media-left">
-                    <img ng-src="https://multimegamander.github.io/DSShop/assets/images/{{title.titleid}}.png" alt="{{title.name}}-icon" class="media-object hb-icon pull-left">
+                    <img ng-src="./assets/images/{{title.titleid}}.png" alt="{{title.name}}-icon" class="media-object hb-icon pull-left">
                   </div>
                   <div class="media-body">
                     <div class="media-heading">
-                      <span class="title-name text-primary text-uppercase" title="{{title.name}}">{{title.name}}</span>
+                      <a href="{{title.url}}" target="_blank"><span class="title-name text-primary text-uppercase" title="{{title.name}}">{{title.name}}</span></a>
                     </div>
                     <small title="by {{title.author}}">by {{title.author}}</small>
                   </div>

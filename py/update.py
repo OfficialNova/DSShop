@@ -48,7 +48,7 @@ for project in obj:
 
 	# Check for blank description
 	if not "description" in out or out["description"] == None:
-		out["description"] = "&nbsp;"
+		out["description"] = " "
 
 	list0.append(out)
 

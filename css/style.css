@@ -80,7 +80,6 @@ body {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    height: 228px;
   }
   
   .title h1 {

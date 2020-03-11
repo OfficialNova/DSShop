@@ -46,6 +46,10 @@ for project in obj:
 		out["id"] = i
 		out["titleid"] = simplify(project["name"])
 
+	# Check for blank description
+	if not "description" in out or out["description"] == None:
+		out["description"] = "&nbsp;"
+
 	list0.append(out)
 
 with open("../list0.json", "w") as file:

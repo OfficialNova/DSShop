@@ -31,7 +31,7 @@ for project in obj:
 			"id": i,
 			"titleid": simplify(info["name"]),
 			"name": info["name"],
-			"description": info["description"],
+			"description": info["description"] if not info["description"] == None else project["description"],
 			"author": info["owner"]["login"],
 			"files": files,
 			"create_time": info["created_at"][:10],
@@ -45,10 +45,6 @@ for project in obj:
 		out = project
 		out["id"] = i
 		out["titleid"] = simplify(project["name"])
-
-	# Check for blank description
-	if not "description" in out or out["description"] == None:
-		out["description"] = " "
 
 	list0.append(out)
 

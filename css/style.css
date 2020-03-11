@@ -78,8 +78,9 @@ body {
   .title .content {
     position: relative;
     text-overflow: ellipsis;
-      white-space: nowrap;
-      overflow: hidden;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 228px;
   }
   
   .title h1 {

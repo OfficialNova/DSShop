@@ -9,6 +9,7 @@
 		"location": "GitHub",
 		"author": "devkitPro",
 		"name": "nds-hb-menu",
+		"description": "A simple menu for launching homebrew",
 		"categories":[1, 2]
 	},
 	{

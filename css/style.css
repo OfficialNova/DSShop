@@ -137,3 +137,11 @@ body {
   a:visited {
     color:white;
   }
+
+  a.footer {
+    color: blue;
+  }
+
+  a.footer:visited {
+    color: blue;
+  }
